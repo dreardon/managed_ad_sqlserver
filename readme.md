@@ -136,6 +136,9 @@ gcloud sql databases create $DB_NAME \
 ```
 
 ## Example Windows Compute Instance
+https://github.com/user-attachments/assets/5a2b58b4-35c1-4b85-ac4e-929c3e783fe9
+
+
 ```bash
 
 export WINDOWS_VM_NAME=test-windows-vm
