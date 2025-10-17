@@ -138,7 +138,7 @@ gcloud sql databases create $DB_NAME \
 ## Example Windows Compute Instance
 ```bash
 
-export WINDOWS_VM_NAME=windows-vm
+export WINDOWS_VM_NAME=test-windows-vm
 export WINDOWS_SCRIPT_URL="https://raw.githubusercontent.com/GoogleCloudPlatform/managed-microsoft-activedirectory/main/domain_join.ps1"
 
 gcloud iam service-accounts create non-default-win-compute-sa \
@@ -201,9 +201,11 @@ gcloud compute start-iap-tunnel $WINDOWS_VM_NAME 3389 \
     - sqlcmd shouldn't require a username or password because Windows Domain authentication is successful
 
 ## Example Linux Compute Instance
+[![Example Video](https://raw.githubusercontent.com/dreardon/managed_ad_sqlserver/main/media/managed_ad_sql_server_linux.png)](https://raw.githubusercontent.com/dreardon/managed_ad_sqlserver/main/media/managed_ad_sql_server_linux.mp4)
+
 ```bash
 
-export LINUX_VM_NAME=ubuntu-vm
+export LINUX_VM_NAME=test-ubuntu-vm
 
 gcloud iam service-accounts create non-default-lin-compute-sa \
     --display-name="Non-Default Linux Compute Service Account"
