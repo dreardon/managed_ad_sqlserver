@@ -201,8 +201,6 @@ gcloud compute start-iap-tunnel $WINDOWS_VM_NAME 3389 \
     - sqlcmd shouldn't require a username or password because Windows Domain authentication is successful
 
 ## Example Linux Compute Instance
-[![Example Video](https://raw.githubusercontent.com/dreardon/managed_ad_sqlserver/main/media/managed_ad_sql_server_linux.png)](https://raw.githubusercontent.com/dreardon/managed_ad_sqlserver/main/media/managed_ad_sql_server_linux.mp4)
-
 https://github.com/user-attachments/assets/a40b47b0-f6f1-44a4-9f33-cf6e7f97b48b
 
 ```bash
